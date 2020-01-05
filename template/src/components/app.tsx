@@ -6,7 +6,7 @@ import Profile from "../routes/profile";
 import Header from "./header";
 
 if ((module as any).hot) {
-    // tslint:disable-next-line:no-var-requires
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     require("preact/debug");
 }
 
